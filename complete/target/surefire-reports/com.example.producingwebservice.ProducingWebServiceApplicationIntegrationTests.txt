@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.producingwebservice.ProducingWebServiceApplicationIntegrationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.445 s <<< FAILURE! - in com.example.producingwebservice.ProducingWebServiceApplicationIntegrationTests
+testSendAndReceive  Time elapsed: 1.346 s  <<< ERROR!
+org.springframework.ws.soap.client.SoapFaultClientException: No adapter for endpoint [public com.example.producingwebservice.GetCountryResponse com.example.producingwebservice.CountryEndpoint.getCountry(com.example.producingwebservice.GetCountryRequest)]: Is your endpoint annotated with @Endpoint, or does it implement a supported interface like MessageHandler or PayloadEndpoint?
+	at com.example.producingwebservice.ProducingWebServiceApplicationIntegrationTests.testSendAndReceive(ProducingWebServiceApplicationIntegrationTests.java:53)
+
